@@ -9,7 +9,7 @@ describe('API - Fluxo Funcional API DemoQA', () => {
                 'Content-Type': 'application/json'
             },
             body: {
-                "userName": "bbnllsufdu",
+                "userName": "testeqa12",
                 "password": "Testeqa2!"
             }
         }).then((response) => {
@@ -27,7 +27,7 @@ describe('API - Fluxo Funcional API DemoQA', () => {
                 'Content-Type': 'application/json'
             },
             body: {
-                "userName": "bbnllsufdu",
+                "userName": "testeqa12",
                 "password": "Testeqa2!"
             }
         }).then((response) => {
@@ -44,7 +44,7 @@ describe('API - Fluxo Funcional API DemoQA', () => {
                 'Content-Type': 'application/json'
             },
             body: {
-                "userName": "bbnllsufdu",
+                "userName": "testeqa12",
                 "password": "Testeqa2!"
             }
         }).then((response) => {
@@ -68,7 +68,7 @@ describe('API - Fluxo Funcional API DemoQA', () => {
             method: 'POST',
             url: `${BASE_URL}/BookStore/v1/Books`,
             auth: {
-                user: 'bbnllsufdu',
+                user: 'testeqa12',
                 pass: 'Testeqa2!'
             },
             body: {
@@ -92,7 +92,7 @@ describe('API - Fluxo Funcional API DemoQA', () => {
             method: 'GET',
             url: `${BASE_URL}/Account/v1/User/${idUser}`,
             auth: {
-                user: 'bbnllsufdu',
+                user: 'testeqa12',
                 pass: 'Testeqa2!'
             },
             body: {
